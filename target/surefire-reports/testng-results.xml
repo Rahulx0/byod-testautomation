@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-23T14:29:53 IST" name="OrangeHRM Suite" finished-at="2026-03-23T14:31:55 IST" duration-ms="122173">
+    <groups>
+    </groups>
+    <test started-at="2026-03-23T14:29:53 IST" name="OrangeHRM EndToEnd Test" finished-at="2026-03-23T14:31:55 IST" duration-ms="122173">
+      <class name="com.exam.orangehrm.tests.OrangeHRMTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.exam.orangehrm.tests.OrangeHRMTest@5f058f00]" started-at="2026-03-23T14:29:53 IST" name="setUp" finished-at="2026-03-23T14:29:55 IST" duration-ms="1842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.exam.orangehrm.tests.OrangeHRMTest@5f058f00]" started-at="2026-03-23T14:29:55 IST" name="loginTest" finished-at="2026-03-23T14:30:27 IST" duration-ms="31898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="clickPimTest()[pri:0, instance:com.exam.orangehrm.tests.OrangeHRMTest@5f058f00]" started-at="2026-03-23T14:30:27 IST" name="clickPimTest" finished-at="2026-03-23T14:30:47 IST" depends-on-methods="com.exam.orangehrm.tests.OrangeHRMTest.loginTest" duration-ms="20024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPimTest -->
+        <test-method signature="addEmployeeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.exam.orangehrm.tests.OrangeHRMTest@5f058f00]" started-at="2026-03-23T14:30:47 IST" name="addEmployeeTest" finished-at="2026-03-23T14:31:14 IST" depends-on-methods="com.exam.orangehrm.tests.OrangeHRMTest.clickPimTest" duration-ms="26589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeTest -->
+        <test-method signature="searchEmployeeTest(java.lang.String)[pri:0, instance:com.exam.orangehrm.tests.OrangeHRMTest@5f058f00]" started-at="2026-03-23T14:31:14 IST" name="searchEmployeeTest" finished-at="2026-03-23T14:31:44 IST" depends-on-methods="com.exam.orangehrm.tests.OrangeHRMTest.addEmployeeTest" duration-ms="30540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployeeTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.exam.orangehrm.tests.OrangeHRMTest@5f058f00]" started-at="2026-03-23T14:31:44 IST" name="logoutTest" finished-at="2026-03-23T14:31:55 IST" depends-on-methods="com.exam.orangehrm.tests.OrangeHRMTest.searchEmployeeTest" duration-ms="11124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.exam.orangehrm.tests.OrangeHRMTest@5f058f00]" started-at="2026-03-23T14:31:55 IST" name="tearDown" finished-at="2026-03-23T14:31:55 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.exam.orangehrm.tests.OrangeHRMTest -->
+    </test> <!-- OrangeHRM EndToEnd Test -->
+  </suite> <!-- OrangeHRM Suite -->
+</testng-results>

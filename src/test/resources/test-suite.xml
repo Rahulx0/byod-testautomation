@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Suite">
+    <test name="OrangeHRM EndToEnd Test">
+        <parameter name="username" value="Admin"/>
+        <parameter name="password" value="admin123"/>
+        <parameter name="firstName" value="John"/>
+        <parameter name="middleName" value="M"/>
+        <parameter name="lastName" value="Selenium"/>
+
+        <classes>
+            <class name="com.exam.orangehrm.tests.OrangeHRMTest"/>
+        </classes>
+    </test>
+</suite>
+
